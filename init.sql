@@ -1,0 +1,3 @@
+CREATE USER wikijs WITH PASSWORD 'wikijsrocks';
+CREATE DATABASE wiki OWNER wikijs;
+GRANT ALL PRIVILEGES ON DATABASE wiki TO wikijs;
